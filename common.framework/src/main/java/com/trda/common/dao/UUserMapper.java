@@ -3,21 +3,22 @@ package com.trda.common.dao;
 import java.util.List;
 import java.util.Map;
 
-import com.sojson.common.model.UUser;
-import com.sojson.permission.bo.URoleBo;
+import com.trda.common.model.URoleBo;
+import com.trda.common.model.UUser;
 
 public interface UUserMapper {
-    int deleteByPrimaryKey(Long id);
 
-    int insert(UUser record);
+	int deleteByPrimaryKey(Long id);
 
-    int insertSelective(UUser record);
+	int insert(UUser record);
 
-    UUser selectByPrimaryKey(Long id);
+	int insertSelective(UUser record);
 
-    int updateByPrimaryKeySelective(UUser record);
+	UUser selectByPrimaryKey(Long id);
 
-    int updateByPrimaryKey(UUser record);
+	int updateByPrimaryKeySelective(UUser record);
+
+	int updateByPrimaryKey(UUser record);
 
 	UUser login(Map<String, Object> map);
 

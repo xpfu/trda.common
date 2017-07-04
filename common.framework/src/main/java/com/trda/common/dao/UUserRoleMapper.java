@@ -3,12 +3,13 @@ package com.trda.common.dao;
 import java.util.List;
 import java.util.Map;
 
-import com.sojson.common.model.UUserRole;
+import com.trda.common.model.UUserRole;
 
 public interface UUserRoleMapper {
-    int insert(UUserRole record);
 
-    int insertSelective(UUserRole record);
+	int insert(UUserRole record);
+
+	int insertSelective(UUserRole record);
 
 	int deleteByUserId(Long id);
 

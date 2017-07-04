@@ -4,21 +4,21 @@ import java.io.Serializable;
 
 import org.apache.commons.lang.StringUtils;
 
-/** 
-* @company trda
-* @author xp.fu
-* @version 2017年6月28日 下午5:05:54
-*/
+/**
+ * @company trda
+ * @author xp.fu
+ * @version 2017年6月28日 下午5:05:54
+ */
 public class URoleBo extends URole implements Serializable {
 
 	private static final long serialVersionUID = 1L;
-	
-	//用户ID(考虑多个ID，用String类型)
+
+	// 用户ID(考虑多个ID，用String类型)
 	private String userId;
-	//是否勾选
+	// 是否勾选
 	private String marker;
-	
-	public boolean isCheck(){
+
+	public boolean isCheck() {
 		return StringUtils.equals(userId, marker);
 	}
 
@@ -37,6 +37,5 @@ public class URoleBo extends URole implements Serializable {
 	public void setMarker(String marker) {
 		this.marker = marker;
 	}
-	
 
 }

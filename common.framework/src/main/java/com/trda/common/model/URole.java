@@ -6,24 +6,24 @@ import java.util.List;
 
 import net.sf.json.JSONObject;
 
-/** 
-* @company trda
-* @author xp.fu
-* @version 2017年6月27日 下午3:43:21
-* 
-* 权限角色
-*/
+/**
+ * @company trda
+ * @author xp.fu
+ * @version 2017年6月27日 下午3:43:21
+ * 
+ *          权限角色
+ */
 public class URole implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	private Long id;
-	
-	//角色名称
+
+	// 角色名称
 	private String name;
-	//角色类型
+	// 角色类型
 	private String type;
-	
-	//role->permission 一对多处理
+
+	// role->permission 一对多处理
 	private List<UPermission> permissions = new LinkedList<UPermission>();
 
 	public Long getId() {
@@ -58,9 +58,8 @@ public class URole implements Serializable {
 		this.permissions = permissions;
 	}
 
-	public String toString(){
+	public String toString() {
 		return JSONObject.fromObject(this).toString();
 	}
-	
-	
+
 }

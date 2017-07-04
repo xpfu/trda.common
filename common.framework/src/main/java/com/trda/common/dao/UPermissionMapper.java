@@ -3,8 +3,8 @@ package com.trda.common.dao;
 import java.util.List;
 import java.util.Set;
 
-import com.sojson.common.model.UPermission;
-import com.sojson.permission.bo.UPermissionBo;
+import com.trda.common.model.UPermission;
+import com.trda.permission.bo.UPermissionBo;
 
 public interface UPermissionMapper {
     int deleteByPrimaryKey(Long id);

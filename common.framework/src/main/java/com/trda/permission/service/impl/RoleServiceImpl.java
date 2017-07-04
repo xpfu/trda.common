@@ -14,6 +14,7 @@ import com.trda.common.model.URole;
 import com.trda.common.utils.LoggerUtils;
 import com.trda.core.mybatis.BaseMybatisDao;
 import com.trda.core.mybatis.page.Pagination;
+import com.trda.core.shiro.token.manager.TokenManager;
 import com.trda.permission.bo.RolePermissionAllocationBo;
 import com.trda.permission.service.RoleService;
 
