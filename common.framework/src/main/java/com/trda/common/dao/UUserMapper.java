@@ -3,8 +3,8 @@ package com.trda.common.dao;
 import java.util.List;
 import java.util.Map;
 
-import com.trda.common.model.URoleBo;
 import com.trda.common.model.UUser;
+import com.trda.permission.bo.URoleBo;
 
 public interface UUserMapper {
 

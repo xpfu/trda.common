@@ -5,9 +5,9 @@ import java.util.Map;
 
 import org.springframework.ui.ModelMap;
 
-import com.trda.common.model.URoleBo;
 import com.trda.common.model.UUser;
 import com.trda.core.mybatis.page.Pagination;
+import com.trda.permission.bo.URoleBo;
 import com.trda.permission.bo.UserRoleAllocationBo;
 
 /**

@@ -1,8 +1,10 @@
-package com.trda.common.model;
+package com.trda.permission.bo;
 
 import java.io.Serializable;
 
 import org.apache.commons.lang.StringUtils;
+
+import com.trda.common.model.URole;
 
 /**
  * @company trda

@@ -8,11 +8,11 @@ import org.springframework.ui.ModelMap;
 
 import com.trda.common.dao.UUserMapper;
 import com.trda.common.dao.UUserRoleMapper;
-import com.trda.common.model.URoleBo;
 import com.trda.common.model.UUser;
 import com.trda.core.mybatis.BaseMybatisDao;
 import com.trda.core.mybatis.page.Pagination;
 import com.trda.core.shiro.session.CustomSessionManager;
+import com.trda.permission.bo.URoleBo;
 import com.trda.permission.bo.UserRoleAllocationBo;
 import com.trda.user.service.UUserService;
 
