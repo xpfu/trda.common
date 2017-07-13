@@ -1,4 +1,4 @@
-package com.trda.core.mybatis;
+package com.trda.core.mybatis.page;
 /** 
 * @company trda
 * @author xp.fu

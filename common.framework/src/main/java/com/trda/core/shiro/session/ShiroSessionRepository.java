@@ -23,5 +23,5 @@ public interface ShiroSessionRepository {
 	Session getSession(Serializable sessionId);
 	
 	//获取所有session
-	Collection<Session> getAllSession();
+	Collection<Session> getAllSessions();
 }

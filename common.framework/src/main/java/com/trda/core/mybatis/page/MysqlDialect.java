@@ -1,7 +1,5 @@
 package com.trda.core.mybatis.page;
 
-import com.trda.core.mybatis.Dialect;
-
 /** 
 * @company trda
 * @author xp.fu

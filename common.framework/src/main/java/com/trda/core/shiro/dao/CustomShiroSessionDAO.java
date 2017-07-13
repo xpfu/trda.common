@@ -39,7 +39,7 @@ public class CustomShiroSessionDAO extends AbstractSessionDAO {
 
 	@Override
 	public Collection<Session> getActiveSessions() {
-		return getShiroSessionRepository().getAllSession();
+		return getShiroSessionRepository().getAllSessions();
 	}
 
 	@Override
